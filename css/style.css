@@ -1,0 +1,22 @@
+
+
+* {
+    outline: 1px dotted red;
+}
+
+/* Header and Navigation */
+/* ------------------------------------- */
+#header-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation List */
+/* ------------------------------------- */
+#nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
