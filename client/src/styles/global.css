@@ -1,0 +1,38 @@
+:root {
+    --color-primary: #087f7a;
+    --color-primary-dark: #075e5a;
+    --color-primary-light: #d9f3f1;
+    --color-white: #ffffff;
+    --color-text: #183332;
+    --color-muted: #56706e;
+    --color-border: #b8d8d5;
+    --color-background: #f4fbfa;
+
+    --font-body: Arial, Helvetica, sans-serif;
+
+    --shadow-card: 0 1.25rem 3rem rgb(7 94 90 / 15%);
+
+    font-family: var(--font-body), serif;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 20rem;
+    min-height: 100vh;
+    margin: 0;
+}
+
+

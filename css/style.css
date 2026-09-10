@@ -28,17 +28,17 @@
 
 /* Navigation List */
 /* ------------------------------------- */
-#nav-list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    justify-items: flex-end;
-    width: 600px;
+.navbar-nav {
     font-family: Audiowide, serif;
 }
 
+/* Main Content Cards */
+/* ------------------------------------- */
+
+#midpage-subtitle {
+    text-align: center;
+    font-family: Audiowide, serif;
+}
 .main-content-cards {
     display: flex;
     flex-wrap: wrap;
